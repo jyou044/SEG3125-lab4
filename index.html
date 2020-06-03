@@ -111,16 +111,21 @@
     <div class="container p-3">
         <h2>Meet our hairdressers</h2>
         <div class="card-columns">
-            <div class="card bg-warning" style="width:200px">
-                <img class="card-img-top" src="Jule.jpg" alt="Card image" style="width:100%">
+            <div class="card bg-danger" style="width:200px">
+                <img class="card-img-top" src="amanda.png" alt="Card image" style="width:100%">
                 <div class="card-body">
                     <h4 class="card-title">Amanda</h4>
-                    <p class="card-text">Jules has been cutting hair for 10 years.</p>
-                    <a href="#" class="btn btn-primary">See Profile</a>
+                    <p class="card-text">The curly hair specialist</p>
+                    <!-- collapsible part -->
+                    <a href="#profile" class="btn btn-primary" data-toggle="collapse">See Profile</a>
+                    <div id="profile" class="collapse p-3">
+                        <p>Jules has been cutting hair for 10 years ... </p>
+                    </div>
                 </div>
             </div>
+            
             <div class="card bg-danger" style="width:200px">
-                <img class="card-img-top" src="Jule.jpg" alt="Card image" style="width:100%">
+                <img class="card-img-top" src="justin.jpg" alt="Card image" style="width:100%">
                 <div class="card-body">
                     <h4 class="card-title">Justin</h4>
                     <p class="card-text">The curly hair specialist</p>
@@ -192,9 +197,7 @@
                                  <textarea name="comment[body]" rows="10" cols="50" wrap="physical" id="fav_val"></textarea>
                                  <br>
                             </div>
-                            <div class="buttons">
-                                <button class="submit">Submit</button>
-                            </div>
+       
                         </form>
                     </div>
                 </div>
@@ -250,7 +253,10 @@
         </div>
         </div>    
     </div>
-
+    
+    <div class="buttons">
+         <button class="submit">Submit</button>
+    </div>
 
     <footer>
         <i>
