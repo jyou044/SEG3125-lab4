@@ -180,7 +180,7 @@
     <div class="container">
         <div class="container-md p-3 my-3 border bg-warning text-white">
             <h1>Jason's Fabulous Hair Salon</h1>
-            <p>Bike fixing is our business</p>
+            <p>Appointments and Contact Info</p>
         </div>
         <div id="accordion">
             <div class="card">
@@ -216,8 +216,18 @@
                 </div>
                 <div id="collapseClientInfo" class="collapse" data-parent="#accordion">
                     <div class="card-body">
-                        <p>Your information so we can contact you</p>
-                        <p>Form to enter name, email, phone</p>
+                        <p>We would love to contact you! Please enter your name, email, and phone number below!</p>
+                        <form name="User Info Questionaire" method="POST">
+                             <div style="font-family:verdana">
+                                <b>What is your favourite feature of the Toronto Bluejays Website?</b>:<br>
+                                <br>
+                                 <textarea name="comment[body]" rows="10" cols="50" wrap="physical" id="fav_val"></textarea>
+                                 <br>
+                            </div>
+                            <div class="buttons">
+                                <button class="submit">Submit</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
